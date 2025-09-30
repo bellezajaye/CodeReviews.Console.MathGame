@@ -23,7 +23,6 @@ namespace MathGame
         };
         internal static void PrintGames()
         {
-            var gamesToPrint = games.Where(x => x.Type == GameType.Division).OrderByDescending(x => x.Score);
 
             Console.Clear();
             Console.WriteLine("Games History");
